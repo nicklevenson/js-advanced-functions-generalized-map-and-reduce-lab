@@ -11,7 +11,7 @@ function map(src, fn) {
 function reduce(src, fn, start) {
    
   if (start != null) {
-    return fn(src, start)
+    return fn(src)
   }else {
     return fn(src)
   }
